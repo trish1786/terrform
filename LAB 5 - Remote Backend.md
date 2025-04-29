@@ -75,6 +75,7 @@ terraform {
     region = "<Replace your s3 bucket region>"
     bucket = "<Replace your s3 bucket name>"
     key    = "terraform/remotestate"
+    use_lockfile = true
   }
 }
 ```
