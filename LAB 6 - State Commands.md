@@ -39,5 +39,5 @@ terraform state push
 ### terraform state refresh:
 Updates the state file with the real-world infrastructure. This command is useful when Terraform's state file becomes out of sync with the actual infrastructure, typically due to manual changes made outside of Terraform.
 ```
-terraform state refresh
+terraform refresh
 ```
