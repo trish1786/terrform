@@ -21,7 +21,7 @@ terraform state mv aws_instance.example aws_instance.new_example
 ### terraform state rm
 Removes one or more items from the Terraform state. This is typically used when you want to delete a resource from your infrastructure and stop managing it with Terraform.
 ```
-terraform state rm aws_instance.example
+terraform state rm aws_instance.new_example
 ```
 
 ### terraform state pull
