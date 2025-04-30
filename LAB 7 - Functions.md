@@ -1,5 +1,7 @@
 ## Understanding Terraform functions 
 ### Functions
+
+terraform console -- to run function
 ```
 cd ~
 ```
